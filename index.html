@@ -23,35 +23,16 @@
   <div class="intro">
 <h1>Welcome to the Game of Thrones (GoT) Deathpool!</h1>
   </div>
+  <div class="misc">
+  <template>
 <div id="app_deathpool">
-  <div class="misc">
     <div class="indiv">
-      <img v-bind:src="avatarJon"/> 
-      <h2 color=white>{{jonName}}</h2>
+      <img :src="characters.avatar"/> 
+      <h2 color=white>{{characters.name}}</h2>
+      <h3 color=white>{{characters.reason}}</h3>
     </div>
-    <div class="indiv">
-      <img v-bind:src="avatarJon"/> 
-      <h2 color=white>{{jonName}}</h2>
     </div>
-    <div class="indiv">
-      <img v-bind:src="avatarJon"/> 
-      <h2 color=white>{{jonName}}</h2>
-    </div>
-  </div>
-  <div class="misc">
-    <div class="indiv">
-      <img v-bind:src="avatarJon"/> 
-      <h2 color=white>{{jonName}}</h2>
-    </div>
-    <div class="indiv">
-      <img v-bind:src="avatarJon"/> 
-      <h2 color=white>{{jonName}}</h2>
-    </div>
-    <div class="indiv">
-      <img v-bind:src="avatarJon"/> 
-      <h2 color=white>{{jonName}}</h2>
-    </div>
-  </div>
+  </template>
 </div>
 </body>
 <script src="app.js">

@@ -2,7 +2,15 @@ new Vue({
   el: '#app_deathpool',
   data: function() {
     return {
-      jonName: 'Jon Snow', 
+      characters: [
+      { name: 'Theon Greyjoy', avatar: 'https://tom.imgix.net/theongreyjoy.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png', reason: 'Impaled by the Night King' },
+      { name: 'Jorah Mormont', avatar: 'https://tom.imgix.net/jorahmormont.png?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', reason: 'Killed by a swarm of whites'},
+      { name: 'Melisandre', avatar: 'https://tom.imgix.net/melisandre.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png'}
+      ]
+    }
+  }
+})
+      /*jonName: 'Jon Snow', 
       avatarJon: 'https://tom.imgix.net/jonsnow.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', 
       sansaName: 'Sansa Stark', 
       avatarSansa: 'https://tom.imgix.net/sansastark.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', 
@@ -72,6 +80,4 @@ new Vue({
       avatarRhaegal: 'https://tom.imgix.net/rhaegal.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       viserionName: 'Viserion',
       avatarViserion: 'https://tom.imgix.net/viserion.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
-      }
-  }
-})
+      */
