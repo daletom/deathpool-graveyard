@@ -1,13 +1,16 @@
+Vue.component('deathpool', {
+      props: ['name'], ['avatar'], ['reason'],
+      template: '<img :src="avatar"/><h2 color=white>{{ name }}</h2><h3 color=white>{{ reason }}</h3>'
+})
+
 new Vue({
   el: '#app_deathpool',
-  data: function() {
-    return {
+  data: {
       characters: [
-      { name: 'Theon Greyjoy', avatar: 'https://tom.imgix.net/theongreyjoy.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png', reason: 'Impaled by the Night King' },
-      { name: 'Jorah Mormont', avatar: 'https://tom.imgix.net/jorahmormont.png?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', reason: 'Killed by a swarm of whites'},
-      { name: 'Melisandre', avatar: 'https://tom.imgix.net/melisandre.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png'}
+      { id: 1, name: 'Theon Greyjoy', avatar: 'https://tom.imgix.net/theongreyjoy.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png', reason: 'Impaled by the Night King' },
+      { id: 2, name: 'Jorah Mormont', avatar: 'https://tom.imgix.net/jorahmormont.png?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', reason: 'Killed by a swarm of whites'},
+      { id: 3, name: 'Melisandre', avatar: 'https://tom.imgix.net/melisandre.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png', reason: 'Died of old age'}
       ]
-    }
   }
 })
       /*jonName: 'Jon Snow', 

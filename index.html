@@ -24,15 +24,17 @@
 <h1>Welcome to the Game of Thrones (GoT) Deathpool!</h1>
   </div>
   <div class="misc">
-  <template>
 <div id="app_deathpool">
     <div class="indiv">
-      <img :src="characters.avatar"/> 
-      <h2 color=white>{{characters.name}}</h2>
-      <h3 color=white>{{characters.reason}}</h3>
+      <deathpool
+      v-for="character in characters"
+      v-bind:key="character.id"
+      v-bind:avatar="character.avatar"
+      v-bind:name="character.name"
+      v-bind:reason="character.reason"
+      ></deathpool>
     </div>
     </div>
-  </template>
 </div>
 </body>
 <script src="app.js">
