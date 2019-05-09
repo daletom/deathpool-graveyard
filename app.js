@@ -1,9 +1,11 @@
 Vue.component('deathpool', {
       props: ['name', 'avatar', 'reason'],
       template: `
+      <div>
       <img :src="avatar"/>
       <h2>{{ name }}</h2>
       <h3>{{ reason }}</h3>
+      </div>
       `
 })
 
