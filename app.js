@@ -1,7 +1,5 @@
 Vue.component('deathpool', {
-      propA: ['name'],
-      propB: ['avatar'],
-      propC: ['reason'],
+      props: ['name', 'avatar', 'reason'],
       template: `
       <img :src="avatar"/>
       <h2 color=white>{{ name }}</h2>
