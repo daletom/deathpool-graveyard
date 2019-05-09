@@ -84,29 +84,14 @@
 .indiv {
   width: 325px;
   height: 450px;
+  display: inline-block;
 }
 
-.indiv h2 {
-  color: white;
+.indiv h2, h3 {
+  color: honeydew;
   text-align: center;
 }
 
-.intro h2 {
-  color: black;
-}
-
-.regform h2 {
-  color: black;
-}
-
-.die {
-  background: red;
-  color: white;
-}
-
-.tp {
-  color: red
-}
 /* resets */
 body { margin:0px; padding:0px; }
 
