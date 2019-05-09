@@ -25,7 +25,6 @@
   </div>
   <div class="misc">
 <div id="app_deathpool">
-    <div class="indiv">
       <deathpool
       v-for="character in characters"
       v-bind:key="character.id"
@@ -33,7 +32,6 @@
       v-bind:name="character.name"
       v-bind:reason="character.reason"
       ></deathpool>
-    </div>
     </div>
 </div>
 </body>
