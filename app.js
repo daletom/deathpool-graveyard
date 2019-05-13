@@ -25,7 +25,7 @@ new Vue({
       { id: 10, name: 'Euron Greyjoy', avatar: 'https://tom.imgix.net/eurongreyjoy.png?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', reason: 'Killed by Jaime Lannister'},
       { id: 11, name: 'Qyburn', avatar: 'https://tom.imgix.net/qyburn.png?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', reason: 'Head smashed in by The Mountain'},
       { id: 12, name: 'The Mountain', avatar: 'https://tom.imgix.net/mountain.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png', reason: 'Tackled off castle to fiery death by The Hound'},
-      { id: 13, name: 'The Hound', avatar: 'https://tom.imgix.net/sandorclegane.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png', reason: 'Died tacking The Mountain off castle'},
+      { id: 13, name: 'The Hound', avatar: 'https://tom.imgix.net/sandorclegane.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png', reason: 'Died tackling The Mountain off castle'},
       { id: 14, name: 'Jaime Lannister', avatar: 'https://tom.imgix.net/jaimelannister.png?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', reason: 'Crushed to death in collapse of castle'},
       { id: 15, name: 'Cersei Lannister', avatar: 'https://tom.imgix.net/cersei.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse&fm=png', reason: 'Crushed to death in collapse of castle'}
       ]
