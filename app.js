@@ -1,7 +1,3 @@
-Vue.prototype.$imgix = window.imgix;
-
-this.$imgix.init();
-
 Vue.component('deathpool', {
       props: ['name', 'avatar', 'reason'],
       template: `
