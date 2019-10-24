@@ -2,7 +2,9 @@ Vue.component('deathpool', {
       props: ['name', 'avatar', 'reason'],
       template: `
       <div class="indiv">
-      <img :ix-path="avatar"
+      <img 
+      :ix-host="tom.imgix.net"
+      :ix-path="avatar"
       :ix-params='{
             "fit": "facearea",
             "facepad": "1.7",
