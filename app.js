@@ -1,6 +1,3 @@
-import Vue from 'vue';
-import { ImgixJs } from 'imgix.js';
-
 require('imgix.js');
 
 window.imgix.config.host = 'tom.imgix.net';
