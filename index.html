@@ -1,41 +1,47 @@
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="description" content="A site to choose who you think will die in the last season of Game of Thrones!">
-<meta property="og:title" content="Game of Thrones Deathpool Graveyard">
-<meta property="og:description" content="A site to choose who you think will die in the last season of Game of Thrones! This is the page that shows those that have already died in Season 8.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://tom.imgix.net/got_title.jpg?w=1200&h=630&fit=crop&auto=format,compress&txt=Deathpool&txtsize=70&txtclr=fff&txtpad=10&txtlineclr=000&txtline=2">
-<meta property="og:url" content="https://www.thedales.me/deathpool-graveyard">
-<title>GoT Deathpool Graveyard</title>
-<link href="style.css" rel="stylesheet" />
-<script src=https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.min.js></script>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="A site to choose who you think will die in the last season of Game of Thrones!">
+  <meta property="og:title" content="Game of Thrones Deathpool Graveyard">
+  <meta property="og:description"
+    content="A site to choose who you think will die in the last season of Game of Thrones! This is the page that shows those that have already died in Season 8.">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="https://tom.imgix.net/got_title.jpg?w=1200&h=630&fit=crop&auto=format,compress&txt=Deathpool&txtsize=70&txtclr=fff&txtpad=10&txtlineclr=000&txtline=2">
+  <meta property="og:url" content="https://www.thedales.me/deathpool-graveyard">
+  <meta property="ix:srcAttribute" content="data-src">
+  <meta property="ix:srcsetAttribute" content="data-srcset">
+  <meta property="ix:sizesAttribute" content="data-sizes">
+  <title>GoT Deathpool Graveyard</title>
+  <link href="style.css" rel="stylesheet" />
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.min.js> </script> <script type="text/javascript"
+    src="https://tom.imgix.net/imgix.js"></script>
 </head>
 <header>
-    <div class="topnav">
-        <a href="https://thedales.me/deathpool">GoT Deathpool</a>
-        <a class="active" href="https://thedales.me/deathpool-graveyard">The Graveyard</a>
-        <a href="https://thedales.me/deathpool-stats">Everyone's Picks</a>
-            </div>
-        <div class="header-banner">
-    </div>
+  <div class="topnav">
+    <a href="https://thedales.me/deathpool">GoT Deathpool</a>
+    <a class="active" href="https://thedales.me/deathpool-graveyard">The Graveyard</a>
+    <a href="https://thedales.me/deathpool-stats">Everyone's Picks</a>
+  </div>
+  <div class="header-banner">
+  </div>
 </header>
+
 <body>
   <div class="intro">
-<h1>Welcome to the Game of Thrones (GoT) Deathpool Graveyard!  Here you will find a list of everyone that has died in the last season and how they died.</h1>
+    <h1>Welcome to the Game of Thrones (GoT) Deathpool Graveyard! Here you will find a list of everyone that has died in
+      the last season and how they died.</h1>
   </div>
   <div class="misc">
-<div id="app_deathpool">
-      <deathpool
-      v-for="character in characters"
-      v-bind:key="character.id"
-      v-bind:avatar="character.avatar"
-      v-bind:name="character.name"
-      v-bind:reason="character.reason"
-      ></deathpool>
+    <div id="app_deathpool">
+      <deathpool v-for="character in characters" v-bind:key="character.id" v-bind:avatar="character.avatar"
+        v-bind:name="character.name" v-bind:reason="character.reason"></deathpool>
     </div>
-</div>
+  </div>
 </body>
 <script src="app.js">
 
 </script>
+
 </html>
