@@ -1,9 +1,10 @@
+window.imgix.config.host = 'tom.imgix.net';
+
 Vue.component('deathpool', {
       props: ['name', 'avatar', 'reason'],
       template: `
       <div class="indiv">
       <img 
-      :ix-host="tom.imgix.net"
       :ix-path="avatar"
       :ix-params='{
             "fit": "facearea",
