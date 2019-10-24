@@ -1,6 +1,3 @@
-require('imgix.js');
-
-window.imgix.config.host = 'tom.imgix.net';
 Vue.prototype.$imgix = window.imgix;
 
 this.$imgix.init();
